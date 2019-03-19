@@ -1,0 +1,4 @@
+module hcapiplugin {
+    umbrella "/Users/michailbondarenko/Documents/mykituraapp/MyKituraApp/.build/checkouts/omr-agentcore--5111610006323576909/src/hcapiplugin/include"
+    export *
+}
