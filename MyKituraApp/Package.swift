@@ -12,7 +12,7 @@ let package = Package(
       .package(url: "https://github.com/IBM-Swift/Kitura-OpenAPI.git", from: "1.2.0"),
     ],
     targets: [
-      .target(name: "MyKituraApp", dependencies: [ .target(name: "Application"), "Kitura" , "HeliumLogger"]),
+      .target(name: "MyKituraApp", dependencies: [ .target(name: "Application"), "Kitura" , "HeliumLogger", "KituraOpenAPI"]),
       .target(name: "Application", dependencies: [ "Kitura", "CloudEnvironment","SwiftMetrics", "Health", "KituraOpenAPI",
       ]),
 //      .target(name: "Application", dependencies: ["KituraOpenAPI"]),
